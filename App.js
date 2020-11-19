@@ -9,9 +9,6 @@ const navigator = createStackNavigator(
   },
   {
     initialRouteName: "Login",
-    defaultNavigationOptions: {
-      title: "App",
-    },
   }
 );
 

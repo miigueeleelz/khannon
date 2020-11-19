@@ -5,6 +5,10 @@ const LoginScreen = () => {
   return <Text style={styles.text}>LoginScreen</Text>;
 };
 
+LoginScreen.navigationOptions = () => ({
+  headerShown: false,
+});
+
 const styles = StyleSheet.create({
   text: {
     fontSize: 30,
